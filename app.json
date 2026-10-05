@@ -1,0 +1,38 @@
+{
+  "name": "Python-Tech",
+  "description": "Trust in the shadows,learn from the dust,no matter how hard,you'll soon emerge 1'st",
+  "repository": "https://github.com/Princeofmusic/June-Ultra",
+  "logo": "",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "node",
+    "md",
+    "Python-Tech"
+  ],
+  "stack": "heroku-26",
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Python's session  (TUPA-C~...) — get yours on the pairing page",
+      "required": true,
+      "value": ""
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
+    }
+  ]
+}
